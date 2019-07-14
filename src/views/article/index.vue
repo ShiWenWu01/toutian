@@ -8,6 +8,7 @@
        <el-form :model="reqParams" size="small" label-width="80px">
         <!-- 多选框组 -->
         <!-- 状态 -->
+        <!-- 啥 -->
         <el-form-item label="状态：">
           <el-radio-group v-model="reqParams.status">
             <el-radio :label="null">全部</el-radio>
